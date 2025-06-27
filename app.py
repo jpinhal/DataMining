@@ -80,7 +80,7 @@ def app_candidato_individual():
 
 # ========== Parte CSV ==========
 def app_csv():
-    st.title("📂 Previsão em Lote (CSV com dados originais)")
+    st.title("📂 Previsão em Lote (CSV com dados)")
     ficheiro = st.file_uploader("Carregue um ficheiro CSV com os dados originais dos candidatos", type="csv")
 
     colunas_esperadas = [
